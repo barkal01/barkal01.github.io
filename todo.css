@@ -6,6 +6,8 @@
 	table { background-color: white;
 			border-radius: 20px;
 	}
+	th { border-radius: 20px;
+	}
 	h1 {
 		color: blue;
 		font-size: 28pt;

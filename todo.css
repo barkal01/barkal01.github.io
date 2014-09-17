@@ -6,7 +6,9 @@
 	table { background-color: white;
 			border-radius: 20px;
 	}
-	th, tr { border-radius: 20px;
+	th { border-radius: 20px;
+	}
+	tr { border-radius: 20px;
 	}
 	h1 {
 		color: blue;

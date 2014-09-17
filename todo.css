@@ -1,6 +1,8 @@
 	body { 
 		background-image: url("http://i.stack.imgur.com/jGlzr.jpg")
 		}
+	td { width="25%"
+	}
 	
 	h1 {
 		color: blue;

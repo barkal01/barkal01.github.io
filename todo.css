@@ -3,7 +3,8 @@
 		}
 	td { width: 100px
 	}
-	
+	table { background-color: white;
+	}
 	h1 {
 		color: blue;
 		font-size: 28pt;

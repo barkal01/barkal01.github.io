@@ -8,10 +8,18 @@ nav {
          }
          nav li {
             display: inline;
+        
          }
+ section {
+             float: left;
+             width: 20%;
+             height: 500px;
+             background-color: blue;
+             color: white;
+             }
 table {
              float: right;
-             width: 80%;
+             width: 50%;
              height: 500px;
              background-color: red ;
          }

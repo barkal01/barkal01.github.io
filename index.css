@@ -14,12 +14,12 @@ nav {
              float: left;
              width: 20%;
              height: 500px;
-             background-color: blue;
+             background-color: grey;
              color: white;
              }
 table {
              float: right;
              width: 50%;
              height: 500px;
-             background-color: red ;
+             background-color: white ;
          }

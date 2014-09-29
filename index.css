@@ -17,6 +17,10 @@ nav {
              background-color: grey;
              color: white;
              }
+caption { 
+			font-size: 45pt;
+			color: black;
+			}
 table {
              float: right;
              width: 50%;

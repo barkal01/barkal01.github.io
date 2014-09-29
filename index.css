@@ -9,3 +9,9 @@ nav {
          nav li {
             display: inline;
          }
+aside {
+             float: left;
+             width: 80%;
+             height: 500px;
+             background-color: white ;
+         }

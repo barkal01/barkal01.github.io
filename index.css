@@ -3,7 +3,7 @@ body {
 		}
 ul {
     list-style-type: none;
-    margin: auto;
+    margin: 100%;
     padding: 0;
     overflow: hidden;
 }

@@ -17,10 +17,13 @@ nav {
              background-color: grey;
              color: white;
              }
-article { : 
+article { 
 			position: relative;
-    top: 20px;
-    left: -100px;
+   			top: 20px;
+    		left: -100px;
+}
+
+		
 }
 
 			}

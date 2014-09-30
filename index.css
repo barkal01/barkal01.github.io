@@ -9,7 +9,7 @@ ul {
 }
 
 li {
-    position: static;
+    position: relative;
 }
 
 a:link, a:visited {

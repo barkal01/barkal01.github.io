@@ -1,31 +1,14 @@
 body {
 		background-image: url("http://www.gaflarar.is/wp-content/uploads/2012/12/pageBG");
 		}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li {
-    float: left;
-}
-
-a:link, a:visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-a:hover, a:active {
-    background-color: #7A991A;
-}
+ nav {
+             margin-top: 20px;
+             margin-bottom: 0px;
+             background-color: grey;
+         }
+         nav li {
+            display: inline;
+         }
  section {
              float: left;
              width: 40%;

@@ -10,7 +10,7 @@ ul {
 
 li {
      float: left;
-     display: inline;
+     width: 100pt;
 }
 
 a:link, a:visited {

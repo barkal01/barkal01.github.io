@@ -19,7 +19,7 @@ nav {
              }
 article { 
 			 float: left;
-             width: 60%;
+             height: 200px;
 }
 caption { 
 			font-size: 35pt;

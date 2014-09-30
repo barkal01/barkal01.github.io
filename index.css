@@ -18,7 +18,7 @@ nav {
              color: white;
              }
 article { 
-			 position: fixed;
+			 position: static;
 			 width:-40%
              height: 200px;
 }

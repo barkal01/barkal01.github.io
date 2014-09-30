@@ -18,9 +18,11 @@ nav {
              color: white;
              }
 article { : 
-			float: left;
-			width: 5%;
-			height: 10px;
+			position: relative;
+    top: 20px;
+    left: -100px;
+}
+
 			}
 caption { 
 			font-size: 35pt;

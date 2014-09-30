@@ -30,7 +30,7 @@ a:hover, a:active {
 }
  section {
              float: left;
-             width: 40%;
+             width: 100pt;
              height: 200px;
              background-color: grey;
              color: white;

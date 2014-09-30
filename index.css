@@ -11,6 +11,7 @@ ul {
 li {
      float: left;
      display: inline; 
+     width: 100%;
 }
 
 a:link, a:visited {

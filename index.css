@@ -58,6 +58,7 @@ button {
 		transition: .5s ease;
     	top: 85%;
     	right: 23%;
+    	text-align: center;
 }
 caption { 
 			font-size: 35pt;

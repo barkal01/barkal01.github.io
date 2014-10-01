@@ -54,7 +54,7 @@ h4 {
 		text-align: center;
 		}
 button { 
-		position: fixed; 
+		position: relative; 
 		text-align: center;
 }
 caption { 

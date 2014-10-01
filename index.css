@@ -56,8 +56,8 @@ h4 {
 button { 
 		position: absolute; 
 		transition: .5s ease;
-    	top: 40%;
-    	right: 80%;
+    	top: 80%;
+    	right: 20%;
 }
 caption { 
 			font-size: 35pt;

@@ -56,8 +56,6 @@ h4 {
 button { 
 		position: absolute; 
 		transition: .5s ease;
-		top: 1000%;
-		right: 5%;
     	text-align: center;
 }
 caption { 

@@ -56,17 +56,13 @@ h4 {
 button { 
 		position: absolute; 
 		transition: .5s ease;
-    	top: 75%;
-    	right: 30%;
     	text-align: center;
 }
 caption { 
 			font-size: 35pt;
 			color: black;
 			}
-img { 
-		float: right;
-	}
+
 table {
              float: left;
              width: 40%;

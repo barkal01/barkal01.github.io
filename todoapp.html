@@ -4,6 +4,8 @@
 <h1>Todo List</h1>
 </div>
 <body>
+<table id="tasks">
+</table>
 <input type="checkbox" name="group1" value="task 1">Task 1<br />
 <input type="checkbox" name="group1" value="task 2">Task 2<br />
 <input type="checkbox" name="group1" value="task 3">Task 3<br />
@@ -12,18 +14,7 @@
 <script type="text/javascript">
           clickon = function() {
               alert("Hello!");
-          }
-          Add New Event= function() {
-             t = document.querySelector("#header");
-             trow = document.createElement("tr");
-             td = document.createElement("td");
-             contents = document.createTextNode(Date());
-             td.appendChild(contents);
-             td.onclick = clickon;
-             trow.appendChild(td);
-             t.appendChild(trow);
-          }
-       </script>
+        
 </body>
 </html>
 

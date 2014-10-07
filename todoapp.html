@@ -9,7 +9,21 @@
 <input type="checkbox" name="group1" value="task 3">Task 3<br />
 <input type="text" value="New Task" size="40">
 <button onclick="Add New Task()">Add New Task</button>
-
+<script type="text/javascript">
+          clickon = function() {
+              alert("Hello!");
+          }
+          addnewevent = function() {
+             t = document.querySelector("#header");
+             trow = document.createElement("tr");
+             td = document.createElement("td");
+             contents = document.createTextNode(Date());
+             td.appendChild(contents);
+             td.onclick = clickon;
+             trow.appendChild(td);
+             t.appendChild(trow);
+          }
+       </script>
 </body>
 </html>
 

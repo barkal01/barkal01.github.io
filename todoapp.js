@@ -1,3 +1,9 @@
+doneTask = function() { 
+	this.parentNode.className = "done"
+}
+
+
+
 addTask = function() {
 	var new li;
 	task = document.querySelector("#taskbox");

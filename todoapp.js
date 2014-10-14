@@ -35,17 +35,18 @@ addTask = function() {
 	task = document.querySelector("#taskbox");
 	taskList = document.querySelector("#Todolist");
 	priorityValue = document.querySelector("#priority").value;
+	taskText = task.value;
 	newli = document.createElement('li');
-	newli.className = proorityValue;
+	newli.className = priorityValue;
 	newcb = document.createElement('input');
 	newcb.type = 'checkbox' ;
 	newli.appendChild(newcb);
-	t = document.createTextNode(task.value);
+	t = document.createTextNode(taskText);
 	newli.appendChild(t);
-	newcb.id = taskCount;
 	taskList.appendChild(newli);
 	task.value = "";
 	newcb.onclick = doneTask;
+	localSave()
 }
-	
+
 	

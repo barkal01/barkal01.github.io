@@ -25,7 +25,7 @@ localStorage.setItem("todoDatabase",JSON.stringify(res))
 
 restoreTasks = function() {
 	allTasks = JSON.parse(localStorage.getItem("todoDatabase"))
-	taskList = document.querySelector('#busylist");
+	taskList = document.querySelector("#Todolist");
 	for(i = 0; i < allTasks.length; i++) {
 		newli = document.createElement(
 
@@ -33,7 +33,7 @@ restoreTasks = function() {
 addTask = function() {
 	var new li;
 	task = document.querySelector("#taskbox");
-	taskList = document.querySelector("#busylist");
+	taskList = document.querySelector("#Todolist");
 	priorityValue = document.querySelector("#priority").value;
 	newli = document.createElement('li');
 	newli.className = proorityValue;

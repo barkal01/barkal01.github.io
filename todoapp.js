@@ -11,24 +11,25 @@ localSave()
 }
 
 localSave = function() { 
-	res = []
+	var res = []
 	var i;
 	allEntries = document.querySelectorAll('li')
 	for(i=0; i < allEntries.length; i++) {
-	if (allEntries[i].className !="done" ) {
-	res.push(allEntries[i].innerText);
+	if (! allEntries[i].classList.contains("done") ) {
+		res.push(allEntries[i].innerText);
 	}
 }
-console.log(res)
+
 localStorage.setItem("todoDatabase",JSON.stringify(res))
 }
 
 restoreTasks = function() {
-	allTasks = JSON.parse(localStorage.getItem("todoDatabase"))
+	allTasks = JSON.parse(localStorage.getItem('todoDatabase'))
 	taskList = document.querySelector("#Todolist");
 	for(i = 0; i < allTasks.length; i++) {
 		newli = document.createElement(
-
+	}
+}
 
 addTask = function() {
 	var new li;

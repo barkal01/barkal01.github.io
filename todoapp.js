@@ -1,7 +1,33 @@
+var taskCount = 10;
+
 doneTask = function() { 
-	this.parentNode.className = "done"
+	if (this.checked) {
+		this.parentNode.classList.add("done");
+		} else {
+		this.parentNode.classList.remove("done");
 }
 
+localSave()
+}
+
+localSave = function() { 
+	res = []
+	var i;
+	allEntries = document.querySelectorAll('li')
+	for(i=0; i < allEntries.length; i++) {
+	if (allEntries[i].className !="done" ) {
+	res.push(allEntries[i].innerText);
+	}
+}
+console.log(res)
+localStorage.setItem("todoDatabase",JSON.stringify(res))
+}
+
+restoreTasks = function() {
+	allTasks = JSON.parse(localStorage.getItem("todoDatabase"))
+	taskList = document.querySelector('#busylist");
+	for(i = 0; i < allTasks.length; i++) {
+		newli = document.createElement(
 
 
 addTask = function() {

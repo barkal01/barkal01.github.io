@@ -1,17 +1,29 @@
-<html> 
-<link rel="stylesheet" type="text/css" href="todoapp.css">
-<div id="header">
-<h1>Todo List</h1>
-</div>
+<html>
+<head>
+	<link rel="stylesheet" href="todo.css">
+</head>
 <body>
-<input type="checkbox" name="group1" value="task 1">Task 1<br />
-<input type="checkbox" name="group1" value="task 2">Task 2<br />
-<input type="checkbox" name="group1" value="task 3">Task 3<br />
-<input type="text" value="New Task" size="40">
-</body>
-<button>Add New Task</button>
+	<h1>My Todo List</h1> 
+<main>
+    <ul id="Todolist">
+    </ul>
+</main>  
+<aside>
+    <label for="taskbox">Enter Task</label>
+     <input type="text" id="taskbox" size=40 value="enter task here">
+<select id="priority">
+     <option>High</option>
+     <option>Medium</option>
+     <option>Low</option>
+</select>
+<button onclick="addTask()">New</button>
+</aside>
+<script src="todo.js" type="text/javascript"></script>
+<script type="text/javascript">
+    </script>
 </body>
 </html>
+
 
 
 
